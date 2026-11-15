@@ -1,0 +1,1700 @@
+{
+  "source": "441d200",
+  "preparationActions": 30,
+  "phase": "final",
+  "pressures": [
+    0.5,
+    1,
+    2,
+    4,
+    8,
+    16,
+    8,
+    4,
+    2,
+    1,
+    0.5
+  ],
+  "timestamps": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8,
+    15,
+    30,
+    60,
+    120,
+    240,
+    480,
+    1440
+  ],
+  "readings": [
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0,
+      "dialDivisions": 0,
+      "settlementMm": 0,
+      "heightM": 0.0254,
+      "voidRatio": 0.816
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.1,
+      "dialDivisions": 23.44165319227829,
+      "settlementMm": 0.05954179910838686,
+      "heightM": 0.025340458200891612,
+      "voidRatio": 0.811742995780282
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.25,
+      "dialDivisions": 37.064508103680396,
+      "settlementMm": 0.0941438505833482,
+      "heightM": 0.02530585614941665,
+      "voidRatio": 0.8092690853283716
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.5,
+      "dialDivisions": 52.41713004276754,
+      "settlementMm": 0.13313951030862956,
+      "heightM": 0.02526686048969137,
+      "voidRatio": 0.8064810491842334
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 1,
+      "dialDivisions": 74.1289693220633,
+      "settlementMm": 0.1882875820780408,
+      "heightM": 0.025211712417921958,
+      "voidRatio": 0.802538179171113
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 2,
+      "dialDivisions": 104.79224003369004,
+      "settlementMm": 0.2661722896855727,
+      "heightM": 0.025133827710314426,
+      "voidRatio": 0.7969697292098816
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 4,
+      "dialDivisions": 146.34766410463718,
+      "settlementMm": 0.37172306682577844,
+      "heightM": 0.02502827693317422,
+      "voidRatio": 0.7894232641985977
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 8,
+      "dialDivisions": 191.00869482311168,
+      "settlementMm": 0.48516208485070367,
+      "heightM": 0.024914837915149295,
+      "voidRatio": 0.7813128210201228
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 15,
+      "dialDivisions": 217.92853983686203,
+      "settlementMm": 0.5535384911856296,
+      "heightM": 0.02484646150881437,
+      "voidRatio": 0.7764241771656256
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 30,
+      "dialDivisions": 230.27989751730533,
+      "settlementMm": 0.5849109396939556,
+      "heightM": 0.024815089060306043,
+      "voidRatio": 0.7741811706108572
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 60,
+      "dialDivisions": 235.57813360262892,
+      "settlementMm": 0.5983684593506775,
+      "heightM": 0.02480163154064932,
+      "voidRatio": 0.7732190109377622
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 120,
+      "dialDivisions": 240.5516790168413,
+      "settlementMm": 0.6110012647027769,
+      "heightM": 0.024788998735297222,
+      "voidRatio": 0.7723158150905414
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 240,
+      "dialDivisions": 245.52464150214408,
+      "settlementMm": 0.623632589415446,
+      "heightM": 0.024776367410584553,
+      "voidRatio": 0.7714127251032107
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 480,
+      "dialDivisions": 250.49760398557825,
+      "settlementMm": 0.6362639141233688,
+      "heightM": 0.02476373608587663,
+      "voidRatio": 0.7705096351162187
+    },
+    {
+      "stageIndex": 0,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 1440,
+      "dialDivisions": 258.3795630393175,
+      "settlementMm": 0.6562840901198664,
+      "heightM": 0.024743715909880133,
+      "voidRatio": 0.7690782713520598
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0,
+      "dialDivisions": 258.3795630393175,
+      "settlementMm": 0.6562840901198664,
+      "heightM": 0.024743715909880133,
+      "voidRatio": 0.7690782713520598
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.1,
+      "dialDivisions": 268.5718817181413,
+      "settlementMm": 0.682172579564079,
+      "heightM": 0.02471782742043592,
+      "voidRatio": 0.7672273462799851
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.25,
+      "dialDivisions": 274.49503387099924,
+      "settlementMm": 0.6972173860323381,
+      "heightM": 0.02470278261396766,
+      "voidRatio": 0.7661517018490261
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.5,
+      "dialDivisions": 281.1702804534846,
+      "settlementMm": 0.714172512351851,
+      "heightM": 0.024685827487648148,
+      "voidRatio": 0.7649394770696469
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 1,
+      "dialDivisions": 290.61049177261623,
+      "settlementMm": 0.7381506491024453,
+      "heightM": 0.024661849350897554,
+      "voidRatio": 0.7632251346940925
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 2,
+      "dialDivisions": 303.94664376998946,
+      "settlementMm": 0.7720244751757733,
+      "heightM": 0.024627975524824226,
+      "voidRatio": 0.7608032894913697
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 4,
+      "dialDivisions": 322.1136354860534,
+      "settlementMm": 0.8181686341345757,
+      "heightM": 0.024581831365865423,
+      "voidRatio": 0.7575041637957326
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 8,
+      "dialDivisions": 342.012849178921,
+      "settlementMm": 0.8687126369144593,
+      "heightM": 0.02453128736308554,
+      "voidRatio": 0.7538904665891077
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 15,
+      "dialDivisions": 354.6874368721027,
+      "settlementMm": 0.9009060896551409,
+      "heightM": 0.024499093910344858,
+      "voidRatio": 0.7515887614640261
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 30,
+      "dialDivisions": 363.28845736933516,
+      "settlementMm": 0.9227526817181114,
+      "heightM": 0.024477247318281888,
+      "voidRatio": 0.7500268161417285
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 60,
+      "dialDivisions": 368.44088093910693,
+      "settlementMm": 0.9358398375853317,
+      "heightM": 0.024464160162414667,
+      "voidRatio": 0.7490911360214582
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 120,
+      "dialDivisions": 373.4142446983822,
+      "settlementMm": 0.9484721815338909,
+      "heightM": 0.024451527818466108,
+      "voidRatio": 0.7481879731627735
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 240,
+      "dialDivisions": 378.38720718381614,
+      "settlementMm": 0.961103506246893,
+      "heightM": 0.024438896493753106,
+      "voidRatio": 0.7472848831754189
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 480,
+      "dialDivisions": 383.3601696672517,
+      "settlementMm": 0.9737348309548193,
+      "heightM": 0.02442626516904518,
+      "voidRatio": 0.7463817931884269
+    },
+    {
+      "stageIndex": 1,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 1440,
+      "dialDivisions": 391.2421287209909,
+      "settlementMm": 0.9937550069513169,
+      "heightM": 0.024406244993048682,
+      "voidRatio": 0.7449504294242679
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0,
+      "dialDivisions": 391.2421287209909,
+      "settlementMm": 0.9937550069513169,
+      "heightM": 0.024406244993048682,
+      "voidRatio": 0.7449504294242679
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.1,
+      "dialDivisions": 421.6202846563684,
+      "settlementMm": 1.0709155230271759,
+      "heightM": 0.024329084476972823,
+      "voidRatio": 0.7394337563064034
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.25,
+      "dialDivisions": 439.27421065676776,
+      "settlementMm": 1.1157564950681902,
+      "heightM": 0.02428424350493181,
+      "voidRatio": 0.7362278033447306
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.5,
+      "dialDivisions": 459.1697504235715,
+      "settlementMm": 1.1662911660758717,
+      "heightM": 0.024233708833924127,
+      "voidRatio": 0.7326147733230793
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 1,
+      "dialDivisions": 487.30627734388145,
+      "settlementMm": 1.237757944453459,
+      "heightM": 0.02416224205554654,
+      "voidRatio": 0.7275051800343507
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 2,
+      "dialDivisions": 527.0711681005707,
+      "settlementMm": 1.3387607669754498,
+      "heightM": 0.02406123923302455,
+      "voidRatio": 0.7202838758729361
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 4,
+      "dialDivisions": 581.7107978223696,
+      "settlementMm": 1.4775454264688188,
+      "heightM": 0.02392245457353118,
+      "voidRatio": 0.7103613191154575
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 8,
+      "dialDivisions": 643.6579239474491,
+      "settlementMm": 1.634891126826521,
+      "heightM": 0.023765108873173478,
+      "voidRatio": 0.699111721011143
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 15,
+      "dialDivisions": 683.8375677380978,
+      "settlementMm": 1.7369474220547687,
+      "heightM": 0.02366305257794523,
+      "voidRatio": 0.6918150976987612
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 30,
+      "dialDivisions": 702.37218147679,
+      "settlementMm": 1.7840253409510467,
+      "heightM": 0.023615974659048952,
+      "voidRatio": 0.6884492118438148
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 60,
+      "dialDivisions": 708.1755091692136,
+      "settlementMm": 1.7987657932898027,
+      "heightM": 0.023601234206710196,
+      "voidRatio": 0.6873953275348705
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 120,
+      "dialDivisions": 713.1512626716085,
+      "settlementMm": 1.8114042071858856,
+      "heightM": 0.023588595792814113,
+      "voidRatio": 0.6864917306988357
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 240,
+      "dialDivisions": 718.124225186366,
+      "settlementMm": 1.8240355319733697,
+      "heightM": 0.02357596446802663,
+      "voidRatio": 0.6855886407061557
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 480,
+      "dialDivisions": 723.0971876698015,
+      "settlementMm": 1.836666856681296,
+      "heightM": 0.023563333143318703,
+      "voidRatio": 0.6846855507191638
+    },
+    {
+      "stageIndex": 2,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 1440,
+      "dialDivisions": 730.9791467235422,
+      "settlementMm": 1.8566870326777971,
+      "heightM": 0.023543312967322202,
+      "voidRatio": 0.6832541869550047
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0,
+      "dialDivisions": 730.9791467235422,
+      "settlementMm": 1.8566870326777971,
+      "heightM": 0.023543312967322202,
+      "voidRatio": 0.6832541869550047
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.1,
+      "dialDivisions": 768.0781744711271,
+      "settlementMm": 1.950918563156663,
+      "heightM": 0.023449081436843336,
+      "voidRatio": 0.676517003516043
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.25,
+      "dialDivisions": 789.6378600536207,
+      "settlementMm": 2.0056801645361966,
+      "heightM": 0.023394319835463803,
+      "voidRatio": 0.6726017646142622
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.5,
+      "dialDivisions": 813.9350946662893,
+      "settlementMm": 2.067395140452375,
+      "heightM": 0.023332604859547624,
+      "voidRatio": 0.6681893868086017
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 1,
+      "dialDivisions": 848.296561970004,
+      "settlementMm": 2.15467326740381,
+      "heightM": 0.02324532673259619,
+      "voidRatio": 0.6619493443462472
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 2,
+      "dialDivisions": 896.8663259626328,
+      "settlementMm": 2.2780404679450874,
+      "heightM": 0.02312195953205491,
+      "voidRatio": 0.6531290752051857
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 4,
+      "dialDivisions": 963.853201183453,
+      "settlementMm": 2.448187131005971,
+      "heightM": 0.022951812868994028,
+      "voidRatio": 0.6409642586650847
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 8,
+      "dialDivisions": 1041.0355615435337,
+      "settlementMm": 2.6442303263205758,
+      "heightM": 0.022755769673679423,
+      "voidRatio": 0.6269479420236941
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 15,
+      "dialDivisions": 1092.5296777951287,
+      "settlementMm": 2.7750253815996273,
+      "heightM": 0.02262497461840037,
+      "voidRatio": 0.6175966105124046
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 30,
+      "dialDivisions": 1115.8690808416661,
+      "settlementMm": 2.834307465337832,
+      "heightM": 0.022565692534662167,
+      "voidRatio": 0.6133581749191531
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 60,
+      "dialDivisions": 1122.0939957074795,
+      "settlementMm": 2.8501187490969984,
+      "heightM": 0.022549881250903,
+      "voidRatio": 0.6122277303795215
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 120,
+      "dialDivisions": 1127.0720714379006,
+      "settlementMm": 2.862763061452268,
+      "heightM": 0.02253723693854773,
+      "voidRatio": 0.611323711826877
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 240,
+      "dialDivisions": 1132.0450340059429,
+      "settlementMm": 2.875394386375095,
+      "heightM": 0.022524605613624904,
+      "voidRatio": 0.6104206218245207
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 480,
+      "dialDivisions": 1137.0179964893769,
+      "settlementMm": 2.8880257110830176,
+      "heightM": 0.02251197428891698,
+      "voidRatio": 0.6095175318375289
+    },
+    {
+      "stageIndex": 3,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 1440,
+      "dialDivisions": 1144.8999555431162,
+      "settlementMm": 2.9080458870795156,
+      "heightM": 0.022491954112920483,
+      "voidRatio": 0.6080861680733698
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0,
+      "dialDivisions": 1144.8999555431162,
+      "settlementMm": 2.9080458870795156,
+      "heightM": 0.022491954112920483,
+      "voidRatio": 0.6080861680733698
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.1,
+      "dialDivisions": 1181.4826601417851,
+      "settlementMm": 3.000965956760134,
+      "heightM": 0.022399034043239865,
+      "voidRatio": 0.6014427489182517
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.25,
+      "dialDivisions": 1202.7422902935702,
+      "settlementMm": 3.0549654173456684,
+      "heightM": 0.02234503458265433,
+      "voidRatio": 0.5975820000826875
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.5,
+      "dialDivisions": 1226.7013698265303,
+      "settlementMm": 3.115821479359387,
+      "heightM": 0.022284178520640612,
+      "voidRatio": 0.5932310312395019
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 1,
+      "dialDivisions": 1260.58461755827,
+      "settlementMm": 3.201884928598006,
+      "heightM": 0.022198115071401993,
+      "voidRatio": 0.5870778334514178
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 2,
+      "dialDivisions": 1308.4831247130292,
+      "settlementMm": 3.323547136771094,
+      "heightM": 0.022076452863228905,
+      "voidRatio": 0.5783794645521136
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 4,
+      "dialDivisions": 1374.7245309208918,
+      "settlementMm": 3.4918003085390654,
+      "heightM": 0.021908199691460933,
+      "voidRatio": 0.5663500251847656
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 8,
+      "dialDivisions": 1452.0078347087947,
+      "settlementMm": 3.688099900160339,
+      "heightM": 0.02171190009983966,
+      "voidRatio": 0.5523153772168828
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 15,
+      "dialDivisions": 1504.892482390457,
+      "settlementMm": 3.8224269052717608,
+      "heightM": 0.02157757309472824,
+      "voidRatio": 0.542711525197893
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 30,
+      "dialDivisions": 1529.3821982768943,
+      "settlementMm": 3.884630783623312,
+      "heightM": 0.021515369216376687,
+      "voidRatio": 0.5382641927929157
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 60,
+      "dialDivisions": 1535.8118827384294,
+      "settlementMm": 3.900962182155611,
+      "heightM": 0.021499037817844388,
+      "voidRatio": 0.537096562094701
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 120,
+      "dialDivisions": 1540.7917771674884,
+      "settlementMm": 3.9136111140054206,
+      "heightM": 0.02148638888599458,
+      "voidRatio": 0.536192213266384
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 240,
+      "dialDivisions": 1545.7647398064191,
+      "settlementMm": 3.926242439108305,
+      "heightM": 0.021473757560891694,
+      "voidRatio": 0.5352891232511541
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 480,
+      "dialDivisions": 1550.737702289855,
+      "settlementMm": 3.9388737638162317,
+      "heightM": 0.021461126236183767,
+      "voidRatio": 0.5343860332641621
+    },
+    {
+      "stageIndex": 4,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 1440,
+      "dialDivisions": 1558.619661343594,
+      "settlementMm": 3.958893939812729,
+      "heightM": 0.02144110606018727,
+      "voidRatio": 0.5329546695000031
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 0,
+      "dialDivisions": 1558.619661343594,
+      "settlementMm": 3.958893939812729,
+      "heightM": 0.02144110606018727,
+      "voidRatio": 0.5329546695000031
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 0.1,
+      "dialDivisions": 1594.479466120707,
+      "settlementMm": 4.049977843946596,
+      "heightM": 0.021350022156053403,
+      "voidRatio": 0.5264425289524794
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 0.25,
+      "dialDivisions": 1615.3189911159259,
+      "settlementMm": 4.102910237434452,
+      "heightM": 0.021297089762565547,
+      "voidRatio": 0.5226580712133477
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 0.5,
+      "dialDivisions": 1638.8046224850896,
+      "settlementMm": 4.162563741112128,
+      "heightM": 0.02123743625888787,
+      "voidRatio": 0.5183930805567076
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 1,
+      "dialDivisions": 1672.0183168597969,
+      "settlementMm": 4.246926524823884,
+      "heightM": 0.021153073475176115,
+      "voidRatio": 0.5123614736582607
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 2,
+      "dialDivisions": 1718.9755284005428,
+      "settlementMm": 4.366197842137379,
+      "heightM": 0.02103380215786262,
+      "voidRatio": 0.5038340440424612
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 4,
+      "dialDivisions": 1784.141192538485,
+      "settlementMm": 4.531718629047752,
+      "heightM": 0.020868281370952247,
+      "voidRatio": 0.4919999594350108
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 8,
+      "dialDivisions": 1861.4679852491977,
+      "settlementMm": 4.7281286825329625,
+      "heightM": 0.020671871317467037,
+      "voidRatio": 0.47795741387874546
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 15,
+      "dialDivisions": 1916.2641059235407,
+      "settlementMm": 4.867310829045794,
+      "heightM": 0.020532689170954205,
+      "voidRatio": 0.4680064383642847
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 30,
+      "dialDivisions": 1942.4744902927691,
+      "settlementMm": 4.933885205343634,
+      "heightM": 0.020466114794656366,
+      "voidRatio": 0.46324663256283294
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 60,
+      "dialDivisions": 1949.2415978549436,
+      "settlementMm": 4.951073658551557,
+      "heightM": 0.02044892634144844,
+      "voidRatio": 0.46201772582954215
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 120,
+      "dialDivisions": 1954.2250987571103,
+      "settlementMm": 4.963731750843061,
+      "heightM": 0.02043626824915694,
+      "voidRatio": 0.46111272206570847
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 240,
+      "dialDivisions": 1959.1980615999382,
+      "settlementMm": 4.976363076463843,
+      "heightM": 0.020423636923536156,
+      "voidRatio": 0.46020963201345094
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 480,
+      "dialDivisions": 1964.1710240833736,
+      "settlementMm": 4.9889944011717695,
+      "heightM": 0.02041100559882823,
+      "voidRatio": 0.459306542026459
+    },
+    {
+      "stageIndex": 5,
+      "pressureTsf": 16,
+      "pressureKPa": 1532.1682876853733,
+      "minutes": 1440,
+      "dialDivisions": 1972.052983137113,
+      "settlementMm": 5.0090145771682675,
+      "heightM": 0.020390985422831732,
+      "voidRatio": 0.4578751782623
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0,
+      "dialDivisions": 1972.052983137113,
+      "settlementMm": 5.0090145771682675,
+      "heightM": 0.020390985422831732,
+      "voidRatio": 0.4578751782623
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.1,
+      "dialDivisions": 1961.526381229912,
+      "settlementMm": 4.982277008323977,
+      "heightM": 0.020417722991676022,
+      "voidRatio": 0.4597868091686476
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.25,
+      "dialDivisions": 1955.4089641128003,
+      "settlementMm": 4.966738768846513,
+      "heightM": 0.020433261231153486,
+      "voidRatio": 0.46089773211711527
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 0.5,
+      "dialDivisions": 1948.5147857006652,
+      "settlementMm": 4.94922755567969,
+      "heightM": 0.02045077244432031,
+      "voidRatio": 0.4621497149167591
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 1,
+      "dialDivisions": 1938.7649752841057,
+      "settlementMm": 4.924463037221629,
+      "heightM": 0.02047553696277837,
+      "voidRatio": 0.4639202804884061
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 2,
+      "dialDivisions": 1924.9994363394665,
+      "settlementMm": 4.889498568302245,
+      "heightM": 0.020510501431697754,
+      "voidRatio": 0.4664201023607528
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 4,
+      "dialDivisions": 1906.4297202041191,
+      "settlementMm": 4.842331489318463,
+      "heightM": 0.020557668510681536,
+      "voidRatio": 0.4697923628109317
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 8,
+      "dialDivisions": 1886.7918088878478,
+      "settlementMm": 4.792451194575134,
+      "heightM": 0.020607548805424866,
+      "voidRatio": 0.4733586075059665
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 15,
+      "dialDivisions": 1875.7004326025185,
+      "settlementMm": 4.764279098810397,
+      "heightM": 0.020635720901189602,
+      "voidRatio": 0.4753728014393826
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 30,
+      "dialDivisions": 1872.713452438637,
+      "settlementMm": 4.756692169194138,
+      "heightM": 0.02064330783080586,
+      "voidRatio": 0.47591523703714345
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 60,
+      "dialDivisions": 1872.5939112515184,
+      "settlementMm": 4.756388534578857,
+      "heightM": 0.020643611465421142,
+      "voidRatio": 0.4759369457167242
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 120,
+      "dialDivisions": 1872.5937334687887,
+      "settlementMm": 4.756388083010724,
+      "heightM": 0.020643611916989275,
+      "voidRatio": 0.47593697800206763
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 240,
+      "dialDivisions": 1872.5937334683979,
+      "settlementMm": 4.756388083009731,
+      "heightM": 0.020643611916990268,
+      "voidRatio": 0.47593697800213886
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 480,
+      "dialDivisions": 1872.5937334683979,
+      "settlementMm": 4.756388083009731,
+      "heightM": 0.020643611916990268,
+      "voidRatio": 0.47593697800213886
+    },
+    {
+      "stageIndex": 6,
+      "pressureTsf": 8,
+      "pressureKPa": 766.0841438426867,
+      "minutes": 1440,
+      "dialDivisions": 1872.5937334683979,
+      "settlementMm": 4.756388083009731,
+      "heightM": 0.020643611916990268,
+      "voidRatio": 0.47593697800213886
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0,
+      "dialDivisions": 1872.5937334683979,
+      "settlementMm": 4.756388083009731,
+      "heightM": 0.020643611916990268,
+      "voidRatio": 0.47593697800213886
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.1,
+      "dialDivisions": 1861.5563067703833,
+      "settlementMm": 4.728353019196774,
+      "heightM": 0.020671646980803225,
+      "voidRatio": 0.47794137469049824
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.25,
+      "dialDivisions": 1855.1420295319588,
+      "settlementMm": 4.7120607550111755,
+      "heightM": 0.020687939244988823,
+      "voidRatio": 0.47910620743699606
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 0.5,
+      "dialDivisions": 1847.9132970761352,
+      "settlementMm": 4.693699774573384,
+      "heightM": 0.020706300225426615,
+      "voidRatio": 0.48041894525097373
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 1,
+      "dialDivisions": 1837.69042189596,
+      "settlementMm": 4.667733671615739,
+      "heightM": 0.02073226632838426,
+      "voidRatio": 0.48227541938369356
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 2,
+      "dialDivisions": 1823.276154951887,
+      "settlementMm": 4.6311214335777935,
+      "heightM": 0.020768878566422205,
+      "voidRatio": 0.48489305026073715
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 4,
+      "dialDivisions": 1804.170665577553,
+      "settlementMm": 4.582593490566985,
+      "heightM": 0.020817406509433013,
+      "voidRatio": 0.48836260713111623
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 8,
+      "dialDivisions": 1785.0813671607916,
+      "settlementMm": 4.534106672588411,
+      "heightM": 0.020865893327411587,
+      "voidRatio": 0.49182922372359994
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 15,
+      "dialDivisions": 1775.3820961284791,
+      "settlementMm": 4.509470524166337,
+      "heightM": 0.020890529475833662,
+      "voidRatio": 0.4935906113430678
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 30,
+      "dialDivisions": 1773.1971462525796,
+      "settlementMm": 4.5039207514815525,
+      "heightM": 0.020896079248518447,
+      "voidRatio": 0.49398739824053145
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 60,
+      "dialDivisions": 1773.1345325053326,
+      "settlementMm": 4.503761712563545,
+      "heightM": 0.020896238287436454,
+      "voidRatio": 0.49399876889703126
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 120,
+      "dialDivisions": 1773.1344837997103,
+      "settlementMm": 4.5037615888512645,
+      "heightM": 0.020896238411148734,
+      "voidRatio": 0.4939987777419724
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 240,
+      "dialDivisions": 1773.1344837996817,
+      "settlementMm": 4.503761588851192,
+      "heightM": 0.020896238411148807,
+      "voidRatio": 0.4939987777419777
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 480,
+      "dialDivisions": 1773.1344837996817,
+      "settlementMm": 4.503761588851192,
+      "heightM": 0.020896238411148807,
+      "voidRatio": 0.4939987777419777
+    },
+    {
+      "stageIndex": 7,
+      "pressureTsf": 4,
+      "pressureKPa": 383.04207192134334,
+      "minutes": 1440,
+      "dialDivisions": 1773.1344837996817,
+      "settlementMm": 4.503761588851192,
+      "heightM": 0.020896238411148807,
+      "voidRatio": 0.4939987777419777
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0,
+      "dialDivisions": 1773.1344837996817,
+      "settlementMm": 4.503761588851192,
+      "heightM": 0.020896238411148807,
+      "voidRatio": 0.4939987777419777
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.1,
+      "dialDivisions": 1761.6332504063491,
+      "settlementMm": 4.474548456032127,
+      "heightM": 0.020925451543967872,
+      "voidRatio": 0.4960874017262069
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.25,
+      "dialDivisions": 1754.9494370876218,
+      "settlementMm": 4.45757157020256,
+      "heightM": 0.02094242842979744,
+      "voidRatio": 0.4973011822248876
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 0.5,
+      "dialDivisions": 1747.4169441138383,
+      "settlementMm": 4.438439038049149,
+      "heightM": 0.02096156096195085,
+      "voidRatio": 0.4986690829489268
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 1,
+      "dialDivisions": 1736.764634714453,
+      "settlementMm": 4.411382172174711,
+      "heightM": 0.02098861782782529,
+      "voidRatio": 0.5006035423358552
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 2,
+      "dialDivisions": 1721.771967886355,
+      "settlementMm": 4.373300798431342,
+      "heightM": 0.021026699201568657,
+      "voidRatio": 0.5033262106318377
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 4,
+      "dialDivisions": 1702.2696869699778,
+      "settlementMm": 4.323765004903744,
+      "heightM": 0.021076234995096255,
+      "voidRatio": 0.5068678248462517
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 8,
+      "dialDivisions": 1683.816776192334,
+      "settlementMm": 4.276894611528529,
+      "heightM": 0.02112310538847147,
+      "voidRatio": 0.5102188734434717
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 15,
+      "dialDivisions": 1675.3283907281743,
+      "settlementMm": 4.255334112449563,
+      "heightM": 0.021144665887550436,
+      "voidRatio": 0.5117603642437635
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 30,
+      "dialDivisions": 1673.7091335744813,
+      "settlementMm": 4.251221199279183,
+      "heightM": 0.021148778800720816,
+      "voidRatio": 0.5120544213428739
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 60,
+      "dialDivisions": 1673.6752483853907,
+      "settlementMm": 4.251135130898892,
+      "heightM": 0.021148864869101107,
+      "voidRatio": 0.5120605748932129
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 120,
+      "dialDivisions": 1673.6752341309682,
+      "settlementMm": 4.25113509469266,
+      "heightM": 0.02114886490530734,
+      "voidRatio": 0.5120605774818161
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 240,
+      "dialDivisions": 1673.6752341309655,
+      "settlementMm": 4.2511350946926525,
+      "heightM": 0.021148864905307346,
+      "voidRatio": 0.5120605774818165
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 480,
+      "dialDivisions": 1673.6752341309655,
+      "settlementMm": 4.2511350946926525,
+      "heightM": 0.021148864905307346,
+      "voidRatio": 0.5120605774818165
+    },
+    {
+      "stageIndex": 8,
+      "pressureTsf": 2,
+      "pressureKPa": 191.52103596067167,
+      "minutes": 1440,
+      "dialDivisions": 1673.6752341309655,
+      "settlementMm": 4.2511350946926525,
+      "heightM": 0.021148864905307346,
+      "voidRatio": 0.5120605774818165
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0,
+      "dialDivisions": 1673.6752341309655,
+      "settlementMm": 4.2511350946926525,
+      "heightM": 0.021148864905307346,
+      "voidRatio": 0.5120605774818165
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.1,
+      "dialDivisions": 1661.7504410519525,
+      "settlementMm": 4.220846120271959,
+      "heightM": 0.02117915387972804,
+      "voidRatio": 0.5142261199049655
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.25,
+      "dialDivisions": 1654.8204807530162,
+      "settlementMm": 4.203244021112662,
+      "heightM": 0.021196755978887337,
+      "voidRatio": 0.5154846006952519
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 0.5,
+      "dialDivisions": 1647.010586216896,
+      "settlementMm": 4.183406888990916,
+      "heightM": 0.021216593111009083,
+      "voidRatio": 0.5169028775430117
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 1,
+      "dialDivisions": 1635.966251977072,
+      "settlementMm": 4.155354280021763,
+      "heightM": 0.021244645719978236,
+      "voidRatio": 0.5189085286409635
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 2,
+      "dialDivisions": 1620.4570756014305,
+      "settlementMm": 4.115960972027634,
+      "heightM": 0.021284039027972365,
+      "voidRatio": 0.5217249950707801
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 4,
+      "dialDivisions": 1600.671050860169,
+      "settlementMm": 4.06570446918483,
+      "heightM": 0.02133429553081517,
+      "voidRatio": 0.525318137163793
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 8,
+      "dialDivisions": 1582.8969756943047,
+      "settlementMm": 4.020558318263534,
+      "heightM": 0.021379441681736465,
+      "voidRatio": 0.528545909213914
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 15,
+      "dialDivisions": 1575.4510399683832,
+      "settlementMm": 4.001645641519693,
+      "heightM": 0.021398354358480306,
+      "voidRatio": 0.5298980911417416
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 30,
+      "dialDivisions": 1574.234905176733,
+      "settlementMm": 3.9985566591489023,
+      "heightM": 0.021401443340851097,
+      "voidRatio": 0.5301189412199049
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 60,
+      "dialDivisions": 1574.2159889028285,
+      "settlementMm": 3.9985086118131847,
+      "heightM": 0.021401491388186814,
+      "voidRatio": 0.5301223764152462
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 120,
+      "dialDivisions": 1574.2159844622493,
+      "settlementMm": 3.9985086005341133,
+      "heightM": 0.021401491399465886,
+      "voidRatio": 0.5301223772216554
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 240,
+      "dialDivisions": 1574.2159844622493,
+      "settlementMm": 3.9985086005341133,
+      "heightM": 0.021401491399465886,
+      "voidRatio": 0.5301223772216554
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 480,
+      "dialDivisions": 1574.2159844622493,
+      "settlementMm": 3.9985086005341133,
+      "heightM": 0.021401491399465886,
+      "voidRatio": 0.5301223772216554
+    },
+    {
+      "stageIndex": 9,
+      "pressureTsf": 1,
+      "pressureKPa": 95.76051798033583,
+      "minutes": 1440,
+      "dialDivisions": 1574.2159844622493,
+      "settlementMm": 3.9985086005341133,
+      "heightM": 0.021401491399465886,
+      "voidRatio": 0.5301223772216554
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0,
+      "dialDivisions": 1574.2159844622493,
+      "settlementMm": 3.9985086005341133,
+      "heightM": 0.021401491399465886,
+      "voidRatio": 0.5301223772216554
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.1,
+      "dialDivisions": 1561.9025603121536,
+      "settlementMm": 3.9672325031928706,
+      "heightM": 0.02143276749680713,
+      "voidRatio": 0.5323584950473128
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.25,
+      "dialDivisions": 1554.7467514072357,
+      "settlementMm": 3.949056748574379,
+      "heightM": 0.02145094325142562,
+      "voidRatio": 0.5336579899444458
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 0.5,
+      "dialDivisions": 1546.682331119813,
+      "settlementMm": 3.928573121044325,
+      "heightM": 0.021471426878955674,
+      "voidRatio": 0.535122488668642
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 1,
+      "dialDivisions": 1535.2785115247489,
+      "settlementMm": 3.8996074192728623,
+      "heightM": 0.021500392580727137,
+      "voidRatio": 0.5371934223071053
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 2,
+      "dialDivisions": 1519.3076586916966,
+      "settlementMm": 3.8590414530769097,
+      "heightM": 0.02154095854692309,
+      "voidRatio": 0.5400937291815876
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 4,
+      "dialDivisions": 1499.3292178462907,
+      "settlementMm": 3.808296213329579,
+      "heightM": 0.02159170378667042,
+      "voidRatio": 0.5437218140391133
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 8,
+      "dialDivisions": 1482.2462805752102,
+      "settlementMm": 3.764905552661034,
+      "heightM": 0.021635094447338965,
+      "voidRatio": 0.5468240754475417
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 15,
+      "dialDivisions": 1475.6931598623726,
+      "settlementMm": 3.7482606260504268,
+      "heightM": 0.021651739373949572,
+      "voidRatio": 0.5480141221689929
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 30,
+      "dialDivisions": 1474.767611831464,
+      "settlementMm": 3.7459097340519185,
+      "heightM": 0.02165409026594808,
+      "voidRatio": 0.5481822016914061
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 60,
+      "dialDivisions": 1474.7567362610584,
+      "settlementMm": 3.745882110103089,
+      "heightM": 0.02165411788989691,
+      "voidRatio": 0.5481841766949916
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 120,
+      "dialDivisions": 1474.756734793533,
+      "settlementMm": 3.745882106375574,
+      "heightM": 0.021654117893624425,
+      "voidRatio": 0.5481841769614944
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 240,
+      "dialDivisions": 1474.756734793533,
+      "settlementMm": 3.745882106375574,
+      "heightM": 0.021654117893624425,
+      "voidRatio": 0.5481841769614944
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 480,
+      "dialDivisions": 1474.756734793533,
+      "settlementMm": 3.745882106375574,
+      "heightM": 0.021654117893624425,
+      "voidRatio": 0.5481841769614944
+    },
+    {
+      "stageIndex": 10,
+      "pressureTsf": 0.5,
+      "pressureKPa": 47.88025899016792,
+      "minutes": 1440,
+      "dialDivisions": 1474.756734793533,
+      "settlementMm": 3.745882106375574,
+      "heightM": 0.021654117893624425,
+      "voidRatio": 0.5481841769614944
+    }
+  ],
+  "measurements": {
+    "ringGlassTareG": 241,
+    "diameterM": 0.0635,
+    "initialHeightM": 0.0254,
+    "aliquotTareG": 12.5,
+    "aliquotWetCanG": 25.5,
+    "aliquotDryCanG": 22.5,
+    "aliquotDryingMinutes": 960,
+    "pycnometerDrySoilG": 20,
+    "pycnometerWaterG": 180,
+    "pycnometerSoilWaterG": 192.64705882352942,
+    "initialWetAssemblyG": 397.62729973380476
+  }
+}

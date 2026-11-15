@@ -1,0 +1,41 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import * as scene from '../src/scene.js';
+import * as T from 'three/webgpu';
+test('physical payload bounds exclude hidden geometry and seat glass bottom on actual support', () => {
+  assert.equal(typeof scene.visibleBounds, 'function');
+  const root = new T.Group();
+  root.position.y = .003;
+  root.add(new T.Mesh(new T.BoxGeometry(.115,.003,.085)));
+  const hidden = new T.Group(); hidden.visible=false;
+  hidden.add(new T.Mesh(new T.BoxGeometry(10,10,10))); root.add(hidden);
+  const bounds = scene.visibleBounds([root]);
+  assert.ok(Math.abs(bounds.min.y-.0015)<1e-9);
+  assert.ok(Math.abs(bounds.max.y-.0045)<1e-9);
+  assert.ok(bounds.max.x < .06);
+});
+test('invalid geometry is refused and overhead frame is not crossed',async()=>{
+  const {planCarry}=await import('../src/carry.js');
+  assert.equal(planCarry({min:[0,NaN,0],max:[1,1,1]},[0,0,0],[1,0,0],0,[]).ok,false);
+  const roof={min:[-.1,.12,-.1],max:[.1,.18,.1]};
+  const route=planCarry({min:[-.03,.01,-.03],max:[.03,.08,.03]},[0,.04,0],[.3,.04,0],.01,[roof],{ceilingY:.2});
+  assert.equal(route.ok,false);
+});
+test('guided route lifts whole bottom before travelling, rejects swept collision and seats exactly', async () => {
+  const carry = await import('../src/carry.js').catch(()=>({}));
+  assert.equal(typeof carry.planCarry, 'function');
+  const bounds={min:[-.06,.0015,-.04],max:[.06,.035,.04]};
+  const obstacle={min:[-.3,0,-.1],max:[-.1,.09,.1]};
+  const route=carry.planCarry(bounds,[0,.0187,0],[-.5,.0187,0],.062,[obstacle]);
+  assert.ok(route.ok);
+  assert.equal(route.points[0][0],route.points[1][0]);
+  assert.equal(route.points[0][2],route.points[1][2]);
+  assert.ok(route.points[1][1]-.0172 > .09);
+  assert.equal(route.points[2][1],route.points[1][1]);
+  assert.equal(route.points.at(-1)[0],-.5);
+  assert.ok(Math.abs(route.points.at(-1)[1]-.0172-.062)<1e-12);
+  assert.equal(carry.sweptClear(bounds,[0,0,0],[-.5,0,0],[obstacle]),false);
+  assert.equal(carry.sweptClear(bounds,[0,.1,0],[-.5,.1,0],[obstacle]),true);
+  assert.deepEqual(carry.sampleRoute(route,.5),carry.sampleRoute(route,.5));
+  assert.ok(carry.sampleRoute(route,.5).every(Number.isFinite));
+});

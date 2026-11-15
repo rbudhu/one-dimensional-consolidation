@@ -1,0 +1,10 @@
+import { chromium } from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+const root='reports/guided-handling-baseline';await mkdir(root,{recursive:true});
+const browser=await chromium.launch({headless:true,args:['--enable-gpu','--use-angle=metal','--ignore-gpu-blocklist','--disable-background-timer-throttling','--disable-renderer-backgrounding','--disable-backgrounding-occluded-windows']});
+const page=await browser.newPage({viewport:{width:1440,height:900}});await page.goto('http://127.0.0.1:4174/?qa');await page.waitForFunction(()=>document.querySelector('#gpu-status')?.textContent==='WebGPU · native');await page.waitForFunction(()=>window.__lab.projectObject('ring')!==null);
+const p=await page.evaluate(()=>({object:window.__lab.projectObject('ring'),target:window.__lab.projectTarget('balance')}));await page.screenshot({path:root+'/before.png'});await page.mouse.move(p.object.x,p.object.y);await page.mouse.down();await page.mouse.move(p.target.x,p.target.y,{steps:25});
+const dragging=await page.evaluate(()=>window.__lab.inspect());await page.screenshot({path:root+'/ring-through-scale.png'});
+const ring=dragging.objectPositions.ring,ringBox={min:[ring[0]-.03475,ring[1]-.0127,ring[2]-.03475],max:[ring[0]+.03475,ring[1]+.0127,ring[2]+.03475]},bodyBox={min:[-.56,.0115,-.3525],max:[-.36,.0585,-.2075]};const intersection=ringBox.min.every((v,i)=>v<bodyBox.max[i]&&ringBox.max[i]>bodyBox.min[i]);
+await page.mouse.up();const after=await page.evaluate(()=>({inspect:window.__lab.inspect(),measurements:window.__lab.state().measurements}));
+const result={url:'http://127.0.0.1:4174/?qa',dragging,ringBox,scaleBodyBox:bodyBox,ringIntersectsSolidScale:intersection,afterDrop:after};await writeFile(root+'/evidence.json',JSON.stringify(result,null,2));console.log(JSON.stringify({backend:dragging.backend,ringPosition:ring,ringIntersectsSolidScale:intersection,afterTask:after.inspect.task,afterAnimation:after.inspect.animation,tareAlreadyRecorded:after.measurements.ringGlassTareG},null,2));await browser.close();
