@@ -41,7 +41,10 @@ export function planCarry(bounds, start, destination, supportY, obstacles, {seat
   for(const corridor of [null,.18,.38]) {
     const horizontal=corridor===null ? [start,end] : [start,[start[0],start[1],corridor],[end[0],end[1],corridor],end];
     const footprint={min:[relative.min[0],-10,relative.min[2]],max:[relative.max[0],10,relative.max[2]]};
-    let bottom=Math.max(bounds.min[1],supportY)+CLEARANCE_M;
+    // A native drag has already lifted the payload. Clearance belongs above
+    // supports/obstacles, not above its own current bottom: lifting it again
+    // can push a tall, already-clear bottle through the permitted ceiling.
+    let bottom=Math.max(bounds.min[1],supportY+CLEARANCE_M);
     for(let j=1;j<horizontal.length;j++) for(const o of obstacles) {
       if(o.max[1]>ceilingY) continue; // overhead parts are checked, never blindly overtopped
       if(!sweptClear(footprint,horizontal[j-1],horizontal[j],[o])) bottom=Math.max(bottom,o.max[1]+CLEARANCE_M);

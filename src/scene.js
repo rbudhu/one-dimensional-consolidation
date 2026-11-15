@@ -870,6 +870,9 @@ export async function createLabScene(
     oven: new T.Vector3(0.47, 0.1, -0.23),
   };
   let motion = null, parked = null, releasePose = null, stagedStone = null, pendingDrag = null;
+  // Own the accepted physical release while operation framing readies seating.
+  // Without this handoff, update() restores protocol poses before seat() runs.
+  let releasedPayload = null;
   let savedContext=null,wholeBench=false;
   function contextualView(view,done) {
     if(roam)return;
@@ -1041,6 +1044,7 @@ export async function createLabScene(
     if(task.id==='bottom-stone' && !stagedStone) return clearUpperStone(()=>seat(task,placement,done));
     clearAnimation();
     const payload=capturePayload(payloadObjects(task)), lead=payload[0];
+    releasedPayload=null;
     if(!lead) return false;
     const start=lead.world.toArray(), bounds=boxData(visibleBounds(payload.map(p=>p.object)));
     releasePose=start.slice();
@@ -1092,6 +1096,8 @@ export async function createLabScene(
   }
   function cancelHandling(reset=false,roamValue=null) {
     cancelDrag();
+    if(releasedPayload) restorePayload(releasedPayload.origin);
+    releasedPayload=null;
     if(motion) restorePayload(motion.origin);
     motion=null;
     if(reset) {parked=null;stagedStone=null;releasePose=null;lastDropIntent=null;clearAnimation();}
@@ -1299,6 +1305,7 @@ export async function createLabScene(
     }
     lastDropIntent={objectId:task.objectId,targetId:task.targetId,accepted:result.ok,intentOnly:!saved.portable,clientIntent:placement.clientIntent,releasedPose:actualRelease};
     placement.originPayload=saved.payload;
+    if(result.ok && saved.portable) releasedPayload={payload:saved.payload,origin:saved.payload};
     drag = null;
     el.style.cursor = "default";
     drop.visible = false;
@@ -1388,7 +1395,7 @@ export async function createLabScene(
       });
   }
   function protectedObject(o) {
-    return drag?.payload.some((item) => item.object === o) || motion?.payload.some(item=>item.object===o) || parked?.payload.some(item=>item.object===o) || stagedStone?.some(item=>item.object===o);
+    return drag?.payload.some((item) => item.object === o) || releasedPayload?.payload.some(item=>item.object===o) || motion?.payload.some(item=>item.object===o) || parked?.payload.some(item=>item.object===o) || stagedStone?.some(item=>item.object===o);
   }
   function pose(id, p) {
     const o = objects.get(id);
